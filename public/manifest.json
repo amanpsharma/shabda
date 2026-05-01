@@ -1,0 +1,26 @@
+{
+  "name": "Shabda — Daily Hindi-English Word",
+  "short_name": "Shabda",
+  "description": "One word a day. Hindi and English. A small daily ritual.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4efe2",
+  "theme_color": "#b8341e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle"],
+  "lang": "en"
+}

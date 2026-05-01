@@ -1,0 +1,20 @@
+{
+  "name": "shabda-next",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "mongoose": "^9.6.1",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "web-push": "^3.6.7"
+  }
+}
