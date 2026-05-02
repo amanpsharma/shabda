@@ -14,7 +14,8 @@
     "meaningHi": "बिना ढूँढे किसी अच्छी चीज़ का अचानक मिल जाना।",
     "exampleEn": "Meeting my old friend at the airport was pure serendipity.",
     "exampleHi": "एयरपोर्ट पर अपने पुराने दोस्त से मिलना एक अप्रत्याशित खुशी थी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -31,7 +32,8 @@
     "meaningHi": "मुश्किलों से जल्दी उबरने की क्षमता।",
     "exampleEn": "Her resilience after the setback inspired everyone in the team.",
     "exampleHi": "मुश्किल के बाद उनके लचीलेपन ने पूरी टीम को प्रेरित किया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -48,7 +50,8 @@
     "meaningHi": "स्पष्ट, प्रभावी और सुंदर ढंग से बोलने या लिखने वाला।",
     "exampleEn": "His eloquent speech moved the entire audience.",
     "exampleHi": "उनके वाक्पटु भाषण ने पूरी सभा को भावुक कर दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -65,7 +68,8 @@
     "meaningHi": "बीते समय के लिए भावुक लगाव या याद।",
     "exampleEn": "The old song filled him with nostalgia for his college days.",
     "exampleHi": "पुराने गाने ने उन्हें कॉलेज के दिनों की पुरानी यादों से भर दिया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -82,7 +86,8 @@
     "meaningHi": "जो काम करना चाहिए उसे टालते रहना।",
     "exampleEn": "I keep procrastinating on starting my workout routine.",
     "exampleHi": "मैं अपनी कसरत शुरू करने में लगातार टालमटोल कर रहा हूँ।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -99,7 +104,8 @@
     "meaningHi": "धन्यवाद देने की भावना।",
     "exampleEn": "She wrote a letter to express her gratitude.",
     "exampleHi": "उन्होंने अपनी कृतज्ञता व्यक्त करने के लिए एक पत्र लिखा।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -116,7 +122,8 @@
     "meaningHi": "भविष्य के बारे में उम्मीद और भरोसा रखने वाला।",
     "exampleEn": "He stayed optimistic even during tough times.",
     "exampleHi": "मुश्किल समय में भी वे आशावादी बने रहे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -133,7 +140,8 @@
     "meaningHi": "साधारण, उबाऊ, बिना दिलचस्पी का।",
     "exampleEn": "He found his job mundane and was looking for a change.",
     "exampleHi": "उन्हें अपनी नौकरी नीरस लगती थी और वे बदलाव चाहते थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -150,7 +158,8 @@
     "meaningHi": "मन में स्पष्ट और तीव्र छवि बनाने वाला।",
     "exampleEn": "She gave a vivid description of her trip to the mountains.",
     "exampleHi": "उन्होंने पहाड़ों की अपनी यात्रा का सजीव वर्णन किया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -167,7 +176,8 @@
     "meaningHi": "दूसरे की भावनाओं को समझना और महसूस करना।",
     "exampleEn": "A good leader needs empathy more than authority.",
     "exampleHi": "एक अच्छे नेता को अधिकार से ज़्यादा सहानुभूति की ज़रूरत होती है।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -184,7 +194,8 @@
     "meaningHi": "कई अलग-अलग काम अच्छे से कर सकने वाला।",
     "exampleEn": "She is a versatile actress who can play any role.",
     "exampleHi": "वे एक बहुमुखी अभिनेत्री हैं जो कोई भी किरदार निभा सकती हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -201,7 +212,8 @@
     "meaningHi": "व्यावहारिक, हकीकत के हिसाब से सोचने वाला।",
     "exampleEn": "We need a pragmatic solution, not a perfect one.",
     "exampleHi": "हमें परफेक्ट नहीं, एक व्यावहारिक हल चाहिए।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -218,7 +230,8 @@
     "meaningHi": "जो थका देने वाला और लंबा हो।",
     "exampleEn": "Filling out the forms was a tedious process.",
     "exampleHi": "फॉर्म भरना एक उबाऊ काम था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -235,7 +248,8 @@
     "meaningHi": "बहुत अल्पकालीन या अस्थायी।",
     "exampleEn": "Beauty can be ephemeral, but memories last forever.",
     "exampleHi": "सुंदरता क्षणस्थायी हो सकती है, लेकिन यादें हमेशा रहती हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -252,7 +266,8 @@
     "meaningHi": "शांत, सुकून भरा, बिना किसी हलचल के।",
     "exampleEn": "We spent the morning in a tranquil garden.",
     "exampleHi": "हमने सुबह एक शांत बगीचे में बिताई।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -269,7 +284,8 @@
     "meaningHi": "कुछ करने को तैयार न होना।",
     "exampleEn": "He was reluctant to share his plans with anyone.",
     "exampleHi": "वे अपनी योजनाएँ किसी से साझा करने को अनिच्छुक थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -286,7 +302,8 @@
     "meaningHi": "बारीक से बारीक चीज़ का ध्यान रखने वाला।",
     "exampleEn": "She is meticulous about checking her code before deploying.",
     "exampleHi": "वे डिप्लॉय करने से पहले अपना कोड जांचने में बहुत सूक्ष्मदर्शी हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -303,7 +320,8 @@
     "meaningHi": "सच्चा, असली, दिखावटी नहीं।",
     "exampleEn": "His apology felt genuine and heartfelt.",
     "exampleHi": "उनकी माफ़ी असली और दिल से लग रही थी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -320,7 +338,8 @@
     "meaningHi": "पैसे का सोच-समझकर इस्तेमाल करने वाला।",
     "exampleEn": "Despite his wealth, he leads a frugal life.",
     "exampleHi": "अमीर होने के बावजूद वे एक मितव्ययी जीवन जीते हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -337,7 +356,8 @@
     "meaningHi": "जो होकर रहेगा, जिसे टाला नहीं जा सकता।",
     "exampleEn": "Change is inevitable, growth is optional.",
     "exampleHi": "बदलाव अपरिहार्य है, तरक्की चुनाव।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -354,7 +374,8 @@
     "meaningHi": "शक या डर की वजह से रुकने वाला।",
     "exampleEn": "She was hesitant to speak up in the meeting.",
     "exampleHi": "वे मीटिंग में बोलने को हिचकिचा रही थीं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -371,7 +392,8 @@
     "meaningHi": "लगन और मेहनत से काम करने वाला।",
     "exampleEn": "He's a diligent student who never misses a class.",
     "exampleHi": "वे एक मेहनती विद्यार्थी हैं जो कभी क्लास नहीं छोड़ते।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -388,7 +410,8 @@
     "meaningHi": "विचारों को साफ़ शब्दों में कह पाने वाला।",
     "exampleEn": "She articulated her ideas with confidence.",
     "exampleHi": "उन्होंने अपने विचार आत्मविश्वास से स्पष्ट किए।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -405,7 +428,8 @@
     "meaningHi": "तरक्की और सफलता की प्रबल इच्छा रखने वाला।",
     "exampleEn": "She is an ambitious entrepreneur with big plans.",
     "exampleHi": "वे एक महत्वाकांक्षी उद्यमी हैं जिनके बड़े सपने हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -422,7 +446,8 @@
     "meaningHi": "किसी बात को लेकर परेशानी या बेचैनी का एहसास।",
     "exampleEn": "He felt some anxiety before the interview.",
     "exampleHi": "इंटरव्यू से पहले उन्हें थोड़ी चिंता हुई।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -439,7 +464,8 @@
     "meaningHi": "मुश्किलों के बावजूद डटे रहने का गुण।",
     "exampleEn": "Success comes only through perseverance.",
     "exampleHi": "सफलता केवल दृढ़ता से ही मिलती है।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -456,7 +482,8 @@
     "meaningHi": "जिसके बिना काम नहीं चल सकता।",
     "exampleEn": "A good editor is indispensable for a writer.",
     "exampleHi": "एक लेखक के लिए अच्छा संपादक अपरिहार्य होता है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -473,7 +500,8 @@
     "meaningHi": "अनोखा और पुराने ज़माने का, पर मनभावन।",
     "exampleEn": "We stayed in a quaint little village by the sea.",
     "exampleHi": "हम समुद्र किनारे एक विचित्र छोटे गाँव में रुके।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -490,7 +518,8 @@
     "meaningHi": "किसी चीज़ को बहुत ध्यान से जाँचना।",
     "exampleEn": "The auditor scrutinized every line of the report.",
     "exampleHi": "ऑडिटर ने रिपोर्ट की हर लाइन को बारीकी से जाँचा।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -507,7 +536,8 @@
     "meaningHi": "हमेशा बुरा सोचने वाला।",
     "exampleEn": "Try not to be too pessimistic about your chances.",
     "exampleHi": "अपनी संभावनाओं को लेकर ज़्यादा निराशावादी मत बनो।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -524,7 +554,8 @@
     "meaningHi": "दुनिया घूमने और नई जगहें देखने की तीव्र इच्छा।",
     "exampleEn": "Her wanderlust took her to over thirty countries by thirty.",
     "exampleHi": "उनकी घुमक्कड़ी ने तीस साल की उम्र तक उन्हें तीस से ज़्यादा देश घुमाए।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -541,7 +572,8 @@
     "meaningHi": "विशेषकर विरोधी के प्रति भी उदार और क्षमाशील।",
     "exampleEn": "The champion was magnanimous in victory, praising his opponent.",
     "exampleHi": "चैम्पियन जीत में भी उदार थे, उन्होंने प्रतिद्वंद्वी की सराहना की।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -558,7 +590,8 @@
     "meaningHi": "बहुत दृढ़ और हार न मानने वाला।",
     "exampleEn": "Her tenacious spirit helped her overcome every obstacle.",
     "exampleHi": "उनकी दृढ़निश्चयी भावना ने उन्हें हर बाधा पार करने में मदद की।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -575,7 +608,8 @@
     "meaningHi": "दूसरों की भलाई चाहने वाला और दयालु।",
     "exampleEn": "The benevolent old man donated his savings to the village school.",
     "exampleHi": "उस परोपकारी बुज़ुर्ग ने अपनी जमा-पूँजी गाँव के स्कूल को दान कर दी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -592,7 +626,8 @@
     "meaningHi": "शिकायत किए बिना दर्द या कठिनाई सहन करने वाला।",
     "exampleEn": "She remained stoic throughout the difficult surgery and recovery.",
     "exampleHi": "वह कठिन ऑपरेशन और स्वास्थ्य-लाभ के दौरान अविचल रहीं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -609,7 +644,8 @@
     "meaningHi": "बहुत अधिक बोलने की प्रवृत्ति रखने वाला।",
     "exampleEn": "The loquacious guide shared stories the entire three-hour walk.",
     "exampleHi": "वाचाल गाइड ने पूरी तीन घंटे की सैर में कहानियाँ सुनाईं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -626,7 +662,8 @@
     "meaningHi": "अंतर्मुखी और कम बोलने वाला।",
     "exampleEn": "The taciturn professor rarely spoke outside the classroom.",
     "exampleHi": "मितभाषी प्रोफेसर कक्षा के बाहर शायद ही कभी बात करते थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -643,7 +680,8 @@
     "meaningHi": "आसपास होने वाली बातों से अनजान या बेफिक्र।",
     "exampleEn": "He was so absorbed in his book he was oblivious to the noise.",
     "exampleHi": "वह किताब में इतने डूबे थे कि आसपास के शोर से बेखबर थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -660,7 +698,8 @@
     "meaningHi": "खुशी और उत्साह का एक तीव्र अनुभव।",
     "exampleEn": "Winning the championship filled the entire team with euphoria.",
     "exampleHi": "चैम्पियनशिप जीतने से पूरी टीम में उल्लास छा गया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -677,7 +716,8 @@
     "meaningHi": "गहरी और लंबे समय तक रहने वाली उदासी।",
     "exampleEn": "The old photographs filled her with a gentle melancholy.",
     "exampleHi": "पुरानी तस्वीरों ने उनके मन में हल्की उदासी भर दी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -694,7 +734,8 @@
     "meaningHi": "अकेले रहने की अवस्था, जो अक्सर शांति या चिंतन के लिए चुनी जाती है।",
     "exampleEn": "He found great comfort in the solitude of the mountains.",
     "exampleHi": "उन्हें पहाड़ों के एकांत में बड़ा सुकून मिला।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -711,7 +752,8 @@
     "meaningHi": "एक व्यक्ति या वस्तु जो रहस्यमयी और समझने में कठिन हो।",
     "exampleEn": "The origin of that ancient temple remains an enigma to historians.",
     "exampleHi": "उस प्राचीन मंदिर की उत्पत्ति इतिहासकारों के लिए आज भी एक रहस्य है।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -728,7 +770,8 @@
     "meaningHi": "खुले और ईमानदार होने का गुण, भले ही यह मुश्किल हो।",
     "exampleEn": "I appreciated her candor when she gave me honest feedback.",
     "exampleHi": "मैंने उनकी स्पष्टवादिता की सराहना की जब उन्होंने ईमानदारी से राय दी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -745,7 +788,8 @@
     "meaningHi": "महान ज्ञान या विद्वत्ता रखने वाला।",
     "exampleEn": "The erudite professor could speak on any topic with ease.",
     "exampleHi": "विद्वान प्रोफेसर किसी भी विषय पर सहजता से बोल सकते थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -762,7 +806,8 @@
     "meaningHi": "प्रबल और सच्ची भावना रखने वाला।",
     "exampleEn": "She is a fervent believer in the power of education.",
     "exampleHi": "वे शिक्षा की शक्ति में उत्कट विश्वास रखती हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -779,7 +824,8 @@
     "meaningHi": "अत्यधिक घमंड या आत्मविश्वास जो पतन का कारण बनता है।",
     "exampleEn": "His hubris made him ignore all warnings, and it cost him dearly.",
     "exampleHi": "उनके अहंकार ने सभी चेतावनियाँ नज़रअंदाज़ करवाईं, जिसकी भारी कीमत चुकानी पड़ी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -796,7 +842,8 @@
     "meaningHi": "बिना किसी दोष या गलती के; परफेक्ट।",
     "exampleEn": "Her impeccable attention to detail made her an outstanding editor.",
     "exampleHi": "उनकी निर्दोष बारीकबीनी ने उन्हें एक उत्कृष्ट संपादक बनाया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -813,7 +860,8 @@
     "meaningHi": "हँसमुख और मिलनसार; अच्छे मूड में।",
     "exampleEn": "The jovial host made every guest feel at home at the party.",
     "exampleHi": "खुशमिजाज मेज़बान ने पार्टी में हर मेहमान को घर जैसा महसूस कराया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -830,7 +878,8 @@
     "meaningHi": "ऊर्जा या उत्साह की कमी; धीमा और शिथिल।",
     "exampleEn": "The hot afternoon made everyone feel languid and sleepy.",
     "exampleHi": "गर्म दोपहर ने सभी को सुस्त और नींद से भरा कर दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -847,7 +896,8 @@
     "meaningHi": "स्पष्ट रूप से व्यक्त; समझने में आसान।",
     "exampleEn": "His lucid explanation made the complex theory easy to grasp.",
     "exampleHi": "उनकी सुस्पष्ट व्याख्या ने जटिल सिद्धांत को समझना आसान बना दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -864,7 +914,8 @@
     "meaningHi": "सहज रूप से शांत और निश्चिंत दिखने वाला।",
     "exampleEn": "She answered the tough question with a nonchalant shrug.",
     "exampleHi": "उन्होंने एक बेपरवाह कंधे की झिझक से कठिन सवाल का जवाब दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -881,7 +932,8 @@
     "meaningHi": "यह आभास देने वाला कि कुछ बुरा होने वाला है।",
     "exampleEn": "The dark clouds on the horizon looked ominous before the storm.",
     "exampleHi": "तूफान से पहले क्षितिज पर काले बादल अशुभ लग रहे थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -898,7 +950,8 @@
     "meaningHi": "गहरे विचार में डूबा हुआ, अक्सर हल्की उदासी के साथ।",
     "exampleEn": "She sat by the window, pensive and quiet, lost in thought.",
     "exampleHi": "वह खिड़की के पास बैठी, विचारमग्न और चुप, विचारों में खोई हुई।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -915,7 +968,8 @@
     "meaningHi": "अपने विचार या भावनाएँ आसानी से प्रकट न करने वाला।",
     "exampleEn": "He was reticent about sharing his personal life with colleagues.",
     "exampleHi": "वह सहकर्मियों के साथ अपना निजी जीवन साझा करने में संकोची थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -932,7 +986,8 @@
     "meaningHi": "अच्छा निर्णय और समझ रखने वाला; बुद्धिमान।",
     "exampleEn": "The sagacious mentor guided his students with insight and care.",
     "exampleHi": "बुद्धिमान गुरु ने अपने छात्रों को सूझ-बूझ और प्रेम से मार्गदर्शन दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -949,7 +1004,8 @@
     "meaningHi": "हर जगह मौजूद या पाया जाने वाला।",
     "exampleEn": "Smartphones have become ubiquitous in modern life.",
     "exampleHi": "आधुनिक जीवन में स्मार्टफोन सर्वव्यापी हो गए हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -966,7 +1022,8 @@
     "meaningHi": "महान उम्र, ज्ञान या चरित्र के कारण सम्मान के योग्य।",
     "exampleEn": "The venerable scholar was respected across the entire academic world.",
     "exampleHi": "आदरणीय विद्वान का सम्पूर्ण शैक्षणिक जगत में सम्मान था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -983,7 +1040,8 @@
     "meaningHi": "चंचल रूप से अनोखा या काल्पनिक; अप्रत्याशित विचारों से भरा।",
     "exampleEn": "The whimsical artist painted trees with purple leaves and blue bark.",
     "exampleHi": "मनमौजी कलाकार ने बैंगनी पत्तियों और नीली छाल वाले पेड़ बनाए।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1000,7 +1058,8 @@
     "meaningHi": "किसी कार्य या लक्ष्य की प्राप्ति में लगाई गई महान ऊर्जा या उत्साह।",
     "exampleEn": "She pursued her passion for teaching with remarkable zeal.",
     "exampleHi": "उन्होंने अपनी पढ़ाने की लगन को अद्भुत उत्साह के साथ अपनाया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1017,7 +1076,8 @@
     "meaningHi": "विशेषकर व्यापार में जल्दी और अच्छे निर्णय लेने की क्षमता।",
     "exampleEn": "Her business acumen helped the company grow threefold in two years.",
     "exampleHi": "उनकी व्यावसायिक कुशाग्रता ने दो वर्षों में कंपनी को तिगुना बढ़ा दिया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1034,7 +1094,8 @@
     "meaningHi": "गुप्त रखा गया या चुपके से किया गया, खासकर क्योंकि यह मना हो।",
     "exampleEn": "The two rivals held a clandestine meeting to end their dispute.",
     "exampleHi": "दोनों प्रतिद्वंद्वियों ने अपना विवाद सुलझाने के लिए एक गुप्त बैठक की।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1051,7 +1112,8 @@
     "meaningHi": "प्रसन्न और ऊर्जा से भरपूर; उत्साह से लबालब।",
     "exampleEn": "The ebullient child lit up every room she entered.",
     "exampleHi": "जोशीली बच्ची जिस भी कमरे में जाती, उसे रोशन कर देती।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1068,7 +1130,8 @@
     "meaningHi": "दूसरों के साथ रहना पसंद करने वाला; सामाजिक।",
     "exampleEn": "Being gregarious, she made friends everywhere she went.",
     "exampleHi": "मिलनसार होने के कारण वह जहाँ भी जाती थीं, दोस्त बना लेती थीं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1085,7 +1148,8 @@
     "meaningHi": "जिसे दबाया या हराया न जा सके; अजेय।",
     "exampleEn": "Her indomitable will kept her going when everything seemed hopeless.",
     "exampleHi": "उनकी अदम्य इच्छाशक्ति ने उन्हें तब भी आगे बढ़ाया जब सब कुछ निराशाजनक लग रहा था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1102,7 +1166,8 @@
     "meaningHi": "अच्छी समझ और सुदृढ़ निर्णय-शक्ति रखने वाला।",
     "exampleEn": "A judicious use of resources helped the team meet the deadline.",
     "exampleHi": "संसाधनों के विवेकपूर्ण उपयोग ने टीम को समयसीमा पूरी करने में मदद की।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1119,7 +1184,8 @@
     "meaningHi": "प्रशंसा और सराहना के योग्य।",
     "exampleEn": "Her laudable effort to clean the river inspired the whole community.",
     "exampleHi": "नदी साफ करने का उनका प्रशंसनीय प्रयास पूरे समुदाय को प्रेरित किया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1136,7 +1202,8 @@
     "meaningHi": "एक स्वतंत्र विचार वाला व्यक्ति जो नियमों के अनुरूप नहीं चलता।",
     "exampleEn": "The young maverick challenged every assumption in the field of physics.",
     "exampleHi": "युवा स्वतंत्र विचारक ने भौतिकी के हर अनुमान को चुनौती दी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1153,7 +1220,8 @@
     "meaningHi": "स्पष्ट या परिभाषित नहीं; अस्पष्ट और धुंधला।",
     "exampleEn": "His plans for the future were still nebulous and vague.",
     "exampleHi": "भविष्य के लिए उनकी योजनाएँ अभी भी धुंधली और अस्पष्ट थीं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1170,7 +1238,8 @@
     "meaningHi": "अत्यधिक समृद्ध और विलासितापूर्ण।",
     "exampleEn": "The opulent palace had golden ceilings and marble floors.",
     "exampleHi": "भव्य महल में सोने की छत और संगमरमर के फर्श थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1187,7 +1256,8 @@
     "meaningHi": "निष्ठा, विश्वास या उद्देश्य में दृढ़ और अडिग।",
     "exampleEn": "He remained steadfast in his commitment to justice despite the pressure.",
     "exampleHi": "दबाव के बावजूद वह न्याय के प्रति अपनी प्रतिबद्धता में अटल रहे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1204,7 +1274,8 @@
     "meaningHi": "किसी चीज़ के लिए बहुत तीव्र और अतृप्त भूख रखने वाला।",
     "exampleEn": "She is a voracious reader who finishes a book every two days.",
     "exampleHi": "वह एक अतृप्त पाठक हैं जो हर दो दिन में एक किताब खत्म कर देती हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1221,7 +1292,8 @@
     "meaningHi": "अस्पष्ट या खेद से भरी लालसा की भावना रखने वाला।",
     "exampleEn": "She gave a wistful smile looking at her childhood photographs.",
     "exampleHi": "उन्होंने बचपन की तस्वीरें देखते हुए एक तड़पती-सी मुस्कान दी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1238,7 +1310,8 @@
     "meaningHi": "हाथ या दिमाग के इस्तेमाल में चतुर या कुशल।",
     "exampleEn": "The adroit negotiator resolved the dispute in under an hour.",
     "exampleHi": "कुशल वार्ताकार ने एक घंटे से भी कम समय में विवाद सुलझा लिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1255,7 +1328,8 @@
     "meaningHi": "स्पष्ट, तार्किक और विश्वसनीय।",
     "exampleEn": "She made a cogent argument that changed the committee's decision.",
     "exampleHi": "उन्होंने एक तर्कसंगत दलील दी जिसने समिति का फैसला बदल दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1272,7 +1346,8 @@
     "meaningHi": "निडर और किसी योग्य उद्देश्य के लिए जोखिम उठाने को तैयार।",
     "exampleEn": "The intrepid explorer ventured deep into the uncharted jungle.",
     "exampleHi": "साहसी खोजकर्ता अज्ञात जंगल में गहराई तक निकल पड़े।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1289,7 +1364,8 @@
     "meaningHi": "सूखी ज़मीन पर बारिश पड़ने के बाद आने वाली सुखद मिट्टी की खुशबू।",
     "exampleEn": "After weeks of drought, the petrichor in the air felt like a blessing.",
     "exampleHi": "हफ्तों के सूखे के बाद, हवा में सोंधी महक किसी वरदान जैसी लगी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1306,7 +1382,8 @@
     "meaningHi": "कला, संगीत या अनुभव के ज़रिए भावनात्मक तनाव का निष्कासन।",
     "exampleEn": "Watching that film was a catharsis — she cried and felt lighter.",
     "exampleHi": "वह फ़िल्म देखना एक भावनात्मक मुक्ति थी — वह रोईं और मन हल्का हो गया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1323,7 +1400,8 @@
     "meaningHi": "बहुत गहरा या तीव्र; गहन अर्थ या अंतर्दृष्टि रखने वाला।",
     "exampleEn": "Reading that book had a profound effect on how I see the world.",
     "exampleHi": "उस किताब को पढ़ने का मेरे दुनिया को देखने के नज़रिए पर गहन असर पड़ा।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1340,7 +1418,8 @@
     "meaningHi": "किसी चीज़ के प्रति बहुत उत्साही या भावुक।",
     "exampleEn": "He is an ardent supporter of environmental conservation.",
     "exampleHi": "वे पर्यावरण संरक्षण के प्रबल समर्थक हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1357,7 +1436,8 @@
     "meaningHi": "सुखद विचारों में खोए रहने की अवस्था; दिवास्वप्न।",
     "exampleEn": "She was lost in a reverie about her upcoming trip to the hills.",
     "exampleHi": "वह पहाड़ियों की आगामी यात्रा के बारे में दिवास्वप्न में खोई हुई थीं।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1374,7 +1454,8 @@
     "meaningHi": "बहुत कम शब्दों का उपयोग करने वाला; संक्षिप्त।",
     "exampleEn": "His laconic reply of just one word surprised everyone at the meeting.",
     "exampleHi": "मीटिंग में उनके एक शब्द के संक्षिप्तभाषी जवाब ने सबको चौंका दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1391,7 +1472,8 @@
     "meaningHi": "सभी कठिनाइयों या बीमारियों का हल या उपचार।",
     "exampleEn": "Technology alone is not a panacea for all social problems.",
     "exampleHi": "अकेली तकनीक सभी सामाजिक समस्याओं का रामबाण नहीं है।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1408,7 +1490,8 @@
     "meaningHi": "निडरता और दृढ़ संकल्प दिखाने वाला।",
     "exampleEn": "The dauntless firefighter ran into the burning building to save lives.",
     "exampleHi": "निर्भीक अग्निशमनकर्मी जानें बचाने के लिए जलती इमारत में दौड़ा।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1425,7 +1508,8 @@
     "meaningHi": "विभिन्न स्रोतों से विचार लेने वाला; एक शैली तक सीमित नहीं।",
     "exampleEn": "Her eclectic taste in music ranges from classical to electronic.",
     "exampleHi": "उनकी विविधरुचि संगीत की पसंद शास्त्रीय से इलेक्ट्रॉनिक तक फैली है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1442,7 +1526,8 @@
     "meaningHi": "ध्यान आकर्षित करने से बचने की कोशिश करने वाला; छुप-छुपकर काम करने वाला।",
     "exampleEn": "He cast a furtive glance at the exam paper of his neighbor.",
     "exampleHi": "उसने अपने पड़ोसी की परीक्षा की कॉपी पर चोर-नज़री से एक नज़र डाली।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1459,7 +1544,8 @@
     "meaningHi": "उचित या संभावित लगने वाला; विश्वास करने योग्य।",
     "exampleEn": "Her excuse sounded plausible, so the teacher let her retake the test.",
     "exampleHi": "उनका बहाना विश्वसनीय लगा, इसलिए शिक्षक ने उन्हें परीक्षा दोबारा देने दी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1476,7 +1562,8 @@
     "meaningHi": "सुंदरता या सौंदर्य की सराहना से संबंधित।",
     "exampleEn": "The museum has an aesthetic design that attracts many visitors.",
     "exampleHi": "इस संग्रहालय का सौंदर्यात्मक डिजाइन कई आगंतुकों को आकर्षित करता है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1493,7 +1580,8 @@
     "meaningHi": "किसी चीज़ पर आवश्यकता से अधिक समय और प्रयास लगाना।",
     "exampleEn": "Let's not belabor this point; we all understand.",
     "exampleHi": "इस बात को बार-बार न दोहराएँ; हम सब समझ गए हैं।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1510,7 +1598,8 @@
     "meaningHi": "कठोर और असंगत ध्वनियों का मिश्रण।",
     "exampleEn": "The cacophony of the busy street was unbearable.",
     "exampleHi": "व्यस्त सड़क की कर्कश ध्वनि असहनीय थी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1527,7 +1616,8 @@
     "meaningHi": "सूखाना; नमी को हटाना।",
     "exampleEn": "The sun will desiccate the plants if we don't water them.",
     "exampleHi": "अगर हम पानी न दें तो सूरज पौधों को सूखा देगा।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1544,7 +1634,8 @@
     "meaningHi": "उपजाऊ; उत्पादक।",
     "exampleEn": "The fecund valley produced abundant crops every season.",
     "exampleHi": "यह उर्वर घाटी हर मौसम में प्रचुर फसल पैदा करती है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1561,7 +1652,8 @@
     "meaningHi": "अत्यधिक बातूनी, खासकर साधारण बातों के बारे में।",
     "exampleEn": "The garrulous old man talked non-stop at the party.",
     "exampleHi": "पार्टी में यह बातूनी बुज़ुर्ग लगातार बोलते रहे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1578,7 +1670,8 @@
     "meaningHi": "शांतिपूर्ण और खुश; समृद्ध।",
     "exampleEn": "She reminisced about the halcyon days of her youth.",
     "exampleHi": "वह अपनी जवानी के शांत दिनों को याद कर रही थीं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1595,7 +1688,8 @@
     "meaningHi": "थकावट; ऊर्जा या जीवन शक्ति की कमी।",
     "exampleEn": "After weeks without food, the refugee suffered from inanition.",
     "exampleHi": "हफ्तों बिना भोजन के, शरणार्थी निर्बलता से पीड़ित था।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1612,7 +1706,8 @@
     "meaningHi": "हँसी और मजाक से भरा।",
     "exampleEn": "He made a jocular remark that made everyone laugh.",
     "exampleHi": "उन्होंने एक हल्का-फुल्का कमेंट किया जिससे सभी हँसे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1629,7 +1724,8 @@
     "meaningHi": "जलाना या प्रकाश डालना; दिलचस्पी या उत्साह जगाना।",
     "exampleEn": "His words kindled hope in their hearts.",
     "exampleHi": "उनके शब्दों ने उनके दिलों में आशा प्रज्वलित की।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1646,7 +1742,8 @@
     "meaningHi": "आँसुओं से भरा; उदास और रोने के लिए तैयार।",
     "exampleEn": "The lachrymose ending of the film moved the entire audience.",
     "exampleHi": "फ़िल्म का रुलाई भरा अंत सभी दर्शकों को भावुक कर गया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1663,7 +1760,8 @@
     "meaningHi": "उदार और क्षमाशील आत्मा; मन की महानता।",
     "exampleEn": "Her magnanimity in forgiving was inspiring.",
     "exampleHi": "उनकी क्षमा की उदारता प्रेरणादायक थी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1680,7 +1778,8 @@
     "meaningHi": "अभी शुरुआत में; विकास के प्रारंभिक चरण में।",
     "exampleEn": "The nascent technology shows great promise.",
     "exampleHi": "यह उदीयमान तकनीक बहुत वादा दिखाती है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1697,7 +1796,8 @@
     "meaningHi": "जानबूझकर किसी चीज़ को अस्पष्ट या धुंधला बनाना।",
     "exampleEn": "The speaker tried to obfuscate the facts to avoid criticism.",
     "exampleHi": "वक्ता आलोचना से बचने के लिए तथ्यों को भ्रमित करने की कोशिश की।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1714,7 +1814,8 @@
     "meaningHi": "खतरनाक; असुरक्षित।",
     "exampleEn": "The climber was in a parlous situation on the mountain.",
     "exampleHi": "पर्वतारोही पहाड़ पर एक खतरनाक स्थिति में था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1731,7 +1832,8 @@
     "meaningHi": "दबाना या बुझाना; शांत करना।",
     "exampleEn": "The government moved to quell the uprising.",
     "exampleHi": "सरकार विद्रोह को दबाने के लिए कार्रवाई करी।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1748,7 +1850,8 @@
     "meaningHi": "अधिकार के प्रति जिद्दी विरोध।",
     "exampleEn": "The recalcitrant student refused to follow school rules.",
     "exampleHi": "विरोधी छात्र स्कूल के नियमों का पालन करने से इंकार कर रहा था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1765,7 +1868,8 @@
     "meaningHi": "संयोग से खुशी या लाभप्रद तरीके से घटित होना।",
     "exampleEn": "Their meeting was entirely serendipitous.",
     "exampleHi": "उनकी मुलाकात पूरी तरह सौभाग्यपूर्ण थी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1782,7 +1886,8 @@
     "meaningHi": "स्पष्ट रूप से कहे बिना समझा या निहित।",
     "exampleEn": "There was a tacit agreement between them.",
     "exampleHi": "उनके बीच एक अस्पष्ट समझौता था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1799,7 +1904,8 @@
     "meaningHi": "एक ही समय में हर जगह मौजूद होने की अवस्था।",
     "exampleEn": "The ubiquity of social media has changed society.",
     "exampleHi": "सोशल मीडिया की सर्वव्यापिता ने समाज को बदल दिया है।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1816,7 +1922,8 @@
     "meaningHi": "परेशानी; तकलीफ।",
     "exampleEn": "Much to their vexation, the flight was delayed.",
     "exampleHi": "उनके कष्ट के लिए, उड़ान में देरी हुई।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1833,7 +1940,8 @@
     "meaningHi": "आकार, सीमा या डिग्री में कमी होना।",
     "exampleEn": "The moon will wane over the next few days.",
     "exampleHi": "चाँद अगले कुछ दिनों में घटेगा।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1850,7 +1958,8 @@
     "meaningHi": "विदेशियों का अतार्किक भय या नफरत।",
     "exampleEn": "His xenophobic views were widely criticized.",
     "exampleHi": "उनके विदेशद्वेषी विचार की व्यापक आलोचना हुई।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1867,7 +1976,8 @@
     "meaningHi": "किसी चीज़ के लिए गहरी चाहत रखना।",
     "exampleEn": "She yearned for her home while traveling abroad.",
     "exampleHi": "विदेश में यात्रा करते समय वह अपने घर के लिए तरसती थीं।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1884,7 +1994,8 @@
     "meaningHi": "नरम, कोमल हवा।",
     "exampleEn": "A gentle zephyr rustled the leaves in the garden.",
     "exampleHi": "बगीचे में एक कोमल हवा ने पत्तियों को खड़खड़ाया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -1901,7 +2012,8 @@
     "meaningHi": "मित्रवत् और सुखद; पसंद किया जाने वाला।",
     "exampleEn": "He has an amiable personality that attracts people.",
     "exampleHi": "उनका विनम्र व्यक्तित्व लोगों को आकर्षित करता है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1918,7 +2030,8 @@
     "meaningHi": "युद्ध की ओर प्रवृत्त; आक्रामक।",
     "exampleEn": "His bellicose rhetoric alarmed the international community.",
     "exampleHi": "उनके युद्धप्रिय भाषण से अंतर्राष्ट्रीय समुदाय चिंतित हो गया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1935,7 +2048,8 @@
     "meaningHi": "मूड या व्यवहार में अचानक और अस्पष्ट बदलाव।",
     "exampleEn": "Her capricious decisions made it hard to work with her.",
     "exampleHi": "उनके अप्रत्याशित निर्णय उनके साथ काम करना मुश्किल बनाते थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1952,7 +2066,8 @@
     "meaningHi": "नुकसानदेह या क्षतिकारी।",
     "exampleEn": "Smoking has deleterious effects on health.",
     "exampleHi": "धूम्रपान स्वास्थ्य पर हानिकारक प्रभाव डालता है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -1969,7 +2084,8 @@
     "meaningHi": "उत्साह और प्रफुल्लता।",
     "exampleEn": "Her ebullience was infectious and inspired others.",
     "exampleHi": "उनकी उत्साह संक्रामक था और दूसरों को प्रेरित करता था।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -1986,7 +2102,8 @@
     "meaningHi": "मजाक करना, अक्सर अनुचित तरीके से।",
     "exampleEn": "His facetious comments during the serious meeting were unwelcome.",
     "exampleHi": "गंभीर मीटिंग में उनके हल्के-फुल्के कमेंट अनुपयुक्त थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2003,7 +2120,8 @@
     "meaningHi": "दूसरों के साथ जुड़ने की प्रवृत्ति।",
     "exampleEn": "Her gregariousness made her popular in social circles.",
     "exampleHi": "उनकी सामाजिकता ने उन्हें सामाजिक मंडली में लोकप्रिय बना दिया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -2020,7 +2138,8 @@
     "meaningHi": "आनंद की खोज में समर्पित।",
     "exampleEn": "His hedonistic lifestyle eventually caught up with him.",
     "exampleHi": "उनकी भोगवादी जीवनशैली अंत में उन्हें पकड़ी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2037,7 +2156,8 @@
     "meaningHi": "आसानी से परेशान या उत्तेजित न होने वाला; शांत।",
     "exampleEn": "His imperturbable demeanor impressed the jury.",
     "exampleHi": "उनका अविचल रवैया जूरी को प्रभावित किया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -2054,7 +2174,8 @@
     "meaningHi": "अपरिपक्व या सतही।",
     "exampleEn": "The jejune argument failed to convince anyone.",
     "exampleHi": "बचकाने तर्क से किसी को आश्वस्त नहीं किया जा सका।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2071,7 +2192,8 @@
     "meaningHi": "भाग्य; नियति।",
     "exampleEn": "It was kismet that they met at the airport.",
     "exampleHi": "एयरपोर्ट पर उनका मिलना भाग्य था।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -2088,7 +2210,8 @@
     "meaningHi": "कड़ी आलोचना करना।",
     "exampleEn": "The critic lambasted the film for its poor plot.",
     "exampleHi": "समालोचक ने फ़िल्म की कमजोर कहानी के लिए कड़ी आलोचना की।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -2105,7 +2228,8 @@
     "meaningHi": "आकार दिए जाने या प्रभावित किए जाने में सक्षम।",
     "exampleEn": "Young minds are malleable and open to new ideas.",
     "exampleHi": "युवा मन लचीले होते हैं और नए विचारों के लिए खुले होते हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2122,7 +2246,8 @@
     "meaningHi": "अत्यधिक आत्मकेंद्रित या आत्म-प्रशंसक।",
     "exampleEn": "His narcissistic behavior drove away his friends.",
     "exampleHi": "उनका आत्मकेंद्रित व्यवहार अपने दोस्तों को दूर कर गया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -2139,7 +2264,8 @@
     "meaningHi": "अत्यधिक चापलूसी या आज्ञाकारी।",
     "exampleEn": "His obsequious manner was off-putting to many.",
     "exampleHi": "उनका चाटुकार तरीका कई को नापसंद था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2156,7 +2282,8 @@
     "meaningHi": "पारदर्शी स्पष्ट; समझने में आसान।",
     "exampleEn": "The author's pellucid prose made the complex ideas accessible.",
     "exampleHi": "लेखक की स्पष्ट गद्य ने जटिल विचारों को सुलभ बनाया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2173,7 +2300,8 @@
     "meaningHi": "शिकायत करने की प्रवृत्ति; कमजोर आवाज़ में रोने वाला।",
     "exampleEn": "His querulous tone annoyed everyone around him.",
     "exampleHi": "उनकी शिकायती टोन से सभी को परेशानी हुई।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2190,7 +2318,8 @@
     "meaningHi": "कहानियां सुनाने में कुशल व्यक्ति।",
     "exampleEn": "He was a gifted raconteur who could hold an audience for hours.",
     "exampleHi": "वह एक प्रतिभाशाली कहानीकार थे जो घंटों के लिए दर्शकों को मुग्ध कर सकते थे।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2207,7 +2336,8 @@
     "meaningHi": "संयम या आत्म-नियंत्रण, विशेषकर कठिन परिस्थिति में।",
     "exampleEn": "She handled the crisis with remarkable sangfroid.",
     "exampleHi": "उन्होंने संकट को उल्लेखनीय ठंडे खून के साथ संभाला।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2224,7 +2354,8 @@
     "meaningHi": "अच्छा निर्णय; विवेक।",
     "exampleEn": "His sagacity in business decisions made him wealthy.",
     "exampleHi": "व्यावसायिक निर्णयों में उनकी बुद्धिमत्ता ने उन्हें अमीर बनाया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2241,7 +2372,8 @@
     "meaningHi": "कठोर, औपचारिक और प्राकृतिक सहजता की कमी।",
     "exampleEn": "The dialogue in the play felt stilted and unnatural.",
     "exampleHi": "नाटक में संवाद अप्राकृतिक और कृत्रिम लगा।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2258,7 +2390,8 @@
     "meaningHi": "परिश्रमी; देखभाल और सहनशीलता के साथ किया गया।",
     "exampleEn": "His sedulous efforts finally paid off.",
     "exampleHi": "उनके परिश्रमी प्रयास अंत में सफल हुए।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2275,7 +2408,8 @@
     "meaningHi": "कोई व्यक्ति जो व्यक्तिगत लाभ के लिए किसी के सामने चाटुकार व्यवहार करता है।",
     "exampleEn": "The manager was surrounded by sycophants.",
     "exampleHi": "प्रबंधक चमचों से घिरा हुआ था।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2292,7 +2426,8 @@
     "meaningHi": "अंधकारपूर्ण; उदास।",
     "exampleEn": "The tenebrous castle looked ominous in the moonlight.",
     "exampleHi": "अंधकारमय महल चाँदनी में अशुभ दिख रहा था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2309,7 +2444,8 @@
     "meaningHi": "सूजा हुआ; भाषा में दिखावटी या अतिशयोक्तिपूर्ण।",
     "exampleEn": "His turgid prose was difficult to read.",
     "exampleHi": "उनकी फूली हुई गद्य पढ़ने में मुश्किल थी।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2326,7 +2462,8 @@
     "meaningHi": "आक्रामक; युद्धप्रिय।",
     "exampleEn": "His truculent manner made people uncomfortable.",
     "exampleHi": "उनका हिंसक रवैया लोगों को असहज बनाता था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2343,7 +2480,8 @@
     "meaningHi": "अपनी पत्नी से संबंधित या अनुरागी।",
     "exampleEn": "He was known for his uxorial devotion.",
     "exampleHi": "वह अपनी पत्नी के प्रति समर्पण के लिए जाने जाते थे।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2360,7 +2498,8 @@
     "meaningHi": "कड़वी, कठोर या अपमानजनक भाषा युक्त।",
     "exampleEn": "His vituperative attack on his opponent was uncalled for.",
     "exampleHi": "अपने विरोधी पर उनका अपमानजनक हमला अनुचित था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -2377,7 +2516,8 @@
     "meaningHi": "सच बोलना; सटीकता।",
     "exampleEn": "The veracity of his testimony was questioned.",
     "exampleHi": "उनकी गवाही की सच्चाई पर सवाल उठाया गया।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2394,7 +2534,8 @@
     "meaningHi": "जो आपको नुकसान पहुंचाए हैं उनको हानि पहुंचाने की कोशिश करना।",
     "exampleEn": "His vindictive nature made him many enemies.",
     "exampleHi": "उनकी प्रतिशोधी प्रकृति ने उन्हें कई दुश्मन बना दिए।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2411,7 +2552,8 @@
     "meaningHi": "तरसना; अस्पष्ट लालसा की भावना।",
     "exampleEn": "There was a wistfulness in her eyes as she looked back.",
     "exampleHi": "जब वह पीछे देख रही थीं तो उनकी आँखों में तड़प थी।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "advanced"
   },
   {
     "en": {
@@ -2428,7 +2570,8 @@
     "meaningHi": "आकर्षक और अपील करने वाला।",
     "exampleEn": "Her winsome smile won everyone's heart.",
     "exampleHi": "उनकी आकर्षक मुस्कान ने सभी का दिल जीत लिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2445,7 +2588,8 @@
     "meaningHi": "किसी चीज़ पर शेखी बघारना।",
     "exampleEn": "He vaunted his achievements at every opportunity.",
     "exampleHi": "वह हर मौके पर अपनी उपलब्धियों पर शेखी बघारते थे।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -2462,7 +2606,8 @@
     "meaningHi": "समझ या बुद्धि की कमी; खाली।",
     "exampleEn": "His vacuous remarks revealed his lack of knowledge.",
     "exampleHi": "उनकी खाली बातें उनके ज्ञान की कमी को प्रकट करती हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2479,7 +2624,8 @@
     "meaningHi": "अनुरेखन या अवशेष के रूप में रहना; अब कार्यात्मक नहीं।",
     "exampleEn": "Humans have vestigial structures like the appendix.",
     "exampleHi": "मनुष्यों में परिशिष्ट जैसी अवशेष संरचनाएं हैं।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2496,7 +2642,8 @@
     "meaningHi": "सेना का अग्रभाग; आंदोलन के नेता।",
     "exampleEn": "She was in the vanguard of the feminist movement.",
     "exampleHi": "वह नारीवादी आंदोलन के अग्रदूतों में थीं।",
-    "category": "noun"
+    "category": "noun",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2513,7 +2660,8 @@
     "meaningHi": "जीवंतता की कमी, सुस्त या बेस्वाद।",
     "exampleEn": "The vapid conversation bored everyone.",
     "exampleHi": "फीके संवाद ने सभी को बोर कर दिया।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2530,7 +2678,8 @@
     "meaningHi": "युद्ध या प्रतियोगिता में पराजित।",
     "exampleEn": "The hero vanquished his enemies.",
     "exampleHi": "नायक ने अपने दुश्मनों को हराया।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2547,7 +2696,8 @@
     "meaningHi": "आवश्यकता से अधिक शब्दों का उपयोग।",
     "exampleEn": "His verbose writing could be edited to half its length.",
     "exampleHi": "उनकी बकवास लेखन को आधी लंबाई तक संपादित किया जा सकता है।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2564,7 +2714,8 @@
     "meaningHi": "अत्यधिक जहरीला या हानिकारक; कड़वाहट से भरा।",
     "exampleEn": "The virulent disease spread rapidly through the population.",
     "exampleHi": "विषैली बीमारी आबादी में तेजी से फैली।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2581,7 +2732,8 @@
     "meaningHi": "गहरी भावनाओं से संबंधित; सहज।",
     "exampleEn": "She had a visceral fear of heights.",
     "exampleHi": "उन्हें ऊंचाई का गहरा डर था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   },
   {
     "en": {
@@ -2598,7 +2750,8 @@
     "meaningHi": "किसी के बारे में बुरा बोलना या लिखना।",
     "exampleEn": "The media vilified the politician for his controversial statements.",
     "exampleHi": "मीडिया ने राजनेता को उनके विवादास्पद बयानों के लिए बदनाम किया।",
-    "category": "verb"
+    "category": "verb",
+    "difficulty": "beginner"
   },
   {
     "en": {
@@ -2615,6 +2768,7 @@
     "meaningHi": "घास या पत्तियों से हरा।",
     "exampleEn": "The verdant fields stretched for miles.",
     "exampleHi": "हरा-भरा खेत मील तक फैला हुआ था।",
-    "category": "adjective"
+    "category": "adjective",
+    "difficulty": "intermediate"
   }
 ]

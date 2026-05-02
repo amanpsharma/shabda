@@ -2,10 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { fetchWords } from "../lib/fetchWords";
+import useTheme from "../hooks/useTheme";
 
 export default function SavedWords() {
   const [words, setWords] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const savedIndices = (() => {
@@ -47,7 +49,9 @@ export default function SavedWords() {
         <div className="page-header">
           <Link href="/" className="back-link">← Today</Link>
           <div className="logo"><span className="dev">श</span>Shabda</div>
-          <div className="page-header-right">Saved</div>
+          <button className="nav-icon theme-btn page-header-right" onClick={toggleTheme} aria-label={theme === "dark" ? "Light mode" : "Dark mode"}>
+            {theme === "dark" ? "☀" : "☾"}
+          </button>
         </div>
 
         {loading ? (

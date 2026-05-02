@@ -3,12 +3,15 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import useTheme from "../hooks/useTheme";
 import { fetchWords } from "../lib/fetchWords";
+import { addXP } from "../hooks/useXP";
+import { unlockAchievement } from "../hooks/useAchievements";
 
 const CATS = [
-  { label: "All", value: null },
-  { label: "Noun", value: "noun" },
-  { label: "Adjective", value: "adjective" },
-  { label: "Verb", value: "verb" },
+  { label: "All",       value: null       },
+  { label: "Noun",      value: "noun"     },
+  { label: "Adjective", value: "adjective"},
+  { label: "Verb",      value: "verb"     },
+  { label: "Phrase",    value: "phrase"   },
 ];
 
 const DIFF_KEY = "shabda.difficulty";
@@ -39,6 +42,7 @@ function buildDeck(words, diffMap) {
 export default function QuizPage() {
   const [allWords, setAllWords] = useState([]);
   const [deck, setDeck] = useState([]);
+  const [poolSize, setPoolSize] = useState(0);
   const [current, setCurrent] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [score, setScore] = useState({ known: 0, unknown: 0 });
@@ -68,11 +72,14 @@ export default function QuizPage() {
     if (indices && !initDone.current) {
       initDone.current = true;
       const pool = indices.split(",").map((i) => allWords[parseInt(i)]).filter(Boolean);
-      if (pool.length) { setDeck(buildDeck(pool, map)); setCurrent(0); setFlipped(false); setScore({ known: 0, unknown: 0 }); setDone(false); return; }
+      if (pool.length) {
+        setDeck(buildDeck(pool, map)); setPoolSize(pool.length);
+        setCurrent(0); setFlipped(false); setScore({ known: 0, unknown: 0 }); setDone(false); return;
+      }
     }
 
     const pool = catFilter ? allWords.filter((w) => w.category === catFilter) : allWords;
-    setDeck(buildDeck(pool, map));
+    setDeck(buildDeck(pool, map)); setPoolSize(pool.length);
     setCurrent(0); setFlipped(false); setScore({ known: 0, unknown: 0 }); setDone(false);
   }, [allWords, catFilter]);
 
@@ -92,7 +99,7 @@ export default function QuizPage() {
 
   function restart() {
     const pool = catFilter ? allWords.filter((w) => w.category === catFilter) : allWords;
-    setDeck(buildDeck(pool, getDifficulty()));
+    setDeck(buildDeck(pool, getDifficulty())); setPoolSize(pool.length);
     setCurrent(0); setFlipped(false); setScore({ known: 0, unknown: 0 }); setDone(false);
   }
 
@@ -128,15 +135,18 @@ export default function QuizPage() {
             <button className="btn primary" style={{ marginTop: 16 }} onClick={() => window.location.reload()}>Retry</button>
           </div>
         ) : done ? (
-          <QuizDone score={score} total={deck.length} onRestart={restart} diffMap={diffMap} />
+          <QuizDone score={score} total={deck.length} onRestart={restart} diffMap={diffMap} catFilter={catFilter} />
         ) : (
           <>
             <div className="cat-filter" style={{ marginBottom: 20 }}>
-              {CATS.map(({ label, value }) => (
-                <button key={label} className={`cat-btn${catFilter === value ? " active" : ""}`} onClick={() => setCatFilter(value)} aria-pressed={catFilter === value}>
-                  {label}{value && counts[value] ? <span className="cat-count"> ({counts[value]})</span> : null}
-                </button>
-              ))}
+              {CATS.map(({ label, value }) => {
+                const count = value ? (counts[value] || 0) : allWords.length;
+                return (
+                  <button key={label} className={`cat-btn${catFilter === value ? " active" : ""}`} onClick={() => setCatFilter(value)} aria-pressed={catFilter === value}>
+                    {label}{count > 0 ? <span className="cat-count"> ({count})</span> : null}
+                  </button>
+                );
+              })}
             </div>
 
             {!word ? (
@@ -147,7 +157,9 @@ export default function QuizPage() {
             ) : (
               <>
                 <div className="quiz-meta">
-                  <span className="quiz-counter">{current + 1} / {deck.length}</span>
+                  <span className="quiz-counter">
+                    {current + 1} / {poolSize} <span className="quiz-counter-sub">words</span>
+                  </span>
                   <div className="quiz-progress-bar"><div className="quiz-progress-fill" style={{ width: `${progress}%` }} /></div>
                   <span className="quiz-score">✓ {score.known} · ✗ {score.unknown}</span>
                 </div>
@@ -205,9 +217,37 @@ export default function QuizPage() {
   );
 }
 
-function QuizDone({ score, total, onRestart, diffMap }) {
+function saveQuizResult(known, total, category) {
+  try {
+    const history = JSON.parse(localStorage.getItem("shabda.quizHistory") || "[]");
+    history.unshift({ date: new Date().toDateString(), known, total, category: category || "all", pct: Math.round((known / total) * 100) });
+    localStorage.setItem("shabda.quizHistory", JSON.stringify(history.slice(0, 100)));
+  } catch {}
+}
+
+function QuizDone({ score, total, onRestart, diffMap, catFilter }) {
   const pct = Math.round((score.known / total) * 100);
   const hardCount = Object.values(diffMap).filter((v) => v === "hard").length;
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    saveQuizResult(score.known, total, catFilter);
+    addXP(20);
+    unlockAchievement("first-quiz");
+    if (pct === 100) unlockAchievement("quiz-ace");
+    const xp = parseInt(localStorage.getItem("shabda.xp") || "0");
+    if (xp >= 50)  unlockAchievement("level-up");
+    if (xp >= 100) unlockAchievement("century");
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  function copyChallenge() {
+    const url = `${window.location.origin}/quiz`;
+    navigator.clipboard.writeText(url)
+      .then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000); })
+      .catch(() => {});
+  }
+
   return (
     <div className="empty-state" style={{ paddingTop: 40 }}>
       <div className="empty-icon" style={{ fontSize: 56 }}>{pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "📖"}</div>
@@ -215,8 +255,9 @@ function QuizDone({ score, total, onRestart, diffMap }) {
       <p className="empty-sub">You knew <strong>{score.known}</strong> of <strong>{total}</strong> words ({pct}%).</p>
       {hardCount > 0 && <p className="empty-sub" style={{ marginTop: 8 }}>🔴 {hardCount} word{hardCount !== 1 ? "s" : ""} marked hard — they'll appear more next time.</p>}
       {pct < 80 && <p className="empty-sub" style={{ marginTop: 8 }}>Keep practising — you'll get there.</p>}
-      <div style={{ display: "flex", gap: 12, justifyContent: "center", marginTop: 24 }}>
+      <div style={{ display: "flex", gap: 12, justifyContent: "center", marginTop: 24, flexWrap: "wrap" }}>
         <button className="btn primary" onClick={onRestart}>Try again</button>
+        <button className="btn" onClick={copyChallenge}>{copied ? "✓ Copied!" : "🔗 Challenge a friend"}</button>
         <Link href="/" className="btn">← Home</Link>
       </div>
     </div>

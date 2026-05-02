@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import useTheme from "../hooks/useTheme";
 import WordModal from "../components/WordModal";
 import { fetchWords } from "../lib/fetchWords";
+import { unlockAchievement } from "../hooks/useAchievements";
 
-// Common Devanagari characters for the soft keyboard
 const HINDI_KEYS = [
   ["अ","आ","इ","ई","उ","ऊ","ए","ऐ","ओ","औ","अं","अः"],
   ["क","ख","ग","घ","च","छ","ज","झ","ट","ठ","ड","ढ"],
@@ -29,6 +29,7 @@ export default function SearchPage() {
       .then((w) => setAllWords(w))
       .catch(() => setError("Could not load words. Check your connection."))
       .finally(() => setLoading(false));
+    unlockAchievement("explorer");
   }, []);
 
   useEffect(() => { inputRef.current?.focus(); }, [loading]);
@@ -47,8 +48,14 @@ export default function SearchPage() {
   const counts = allWords.reduce((a, w) => { a[w.category] = (a[w.category] || 0) + 1; return a; }, {});
 
   function appendChar(ch) {
-    setQuery((q) => q + ch);
+    setQuery((prev) => prev + ch);
     inputRef.current?.focus();
+  }
+
+  function surpriseMe() {
+    if (!allWords.length) return;
+    const w = allWords[Math.floor(Math.random() * allWords.length)];
+    setModal({ word: w, date: null });
   }
 
   return (
@@ -72,35 +79,47 @@ export default function SearchPage() {
         </div>
 
         <div className="cat-filter">
-          {[["All", null], ["Noun", "noun"], ["Adjective", "adjective"], ["Verb", "verb"]].map(([label, val]) => (
+          {[["All", null], ["Noun", "noun"], ["Adjective", "adjective"], ["Verb", "verb"], ["Phrase", "phrase"]].map(([label, val]) => (
             <button key={label} className={`cat-btn${catFilter === val ? " active" : ""}`} onClick={() => setCatFilter(val)} aria-pressed={catFilter === val}>
               {label}{val && counts[val] ? <span className="cat-count"> ({counts[val]})</span> : null}
             </button>
           ))}
         </div>
 
-        <div className="search-bar">
-          <input
-            ref={inputRef}
-            className="search-input"
-            type="search"
-            placeholder="Type in English or हिंदी…"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            autoComplete="off"
-            spellCheck="false"
-            aria-label="Search words"
-          />
+        <div className="search-bar-row">
+          <div className="search-bar">
+            <input
+              ref={inputRef}
+              className="search-input"
+              type="search"
+              placeholder="Type in English or हिंदी…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              autoComplete="off"
+              spellCheck="false"
+              aria-label="Search words"
+            />
+            <button
+              className={`search-kb-btn${showHindiKb ? " active" : ""}`}
+              onClick={() => setShowHindiKb((v) => !v)}
+              title="Hindi keyboard"
+              aria-label="Toggle Hindi keyboard"
+              aria-pressed={showHindiKb}
+            >
+              क
+            </button>
+            {query && (
+              <button className="search-clear" onClick={() => setQuery("")} aria-label="Clear search">✕</button>
+            )}
+          </div>
           <button
-            className={`search-kb-btn${showHindiKb ? " active" : ""}`}
-            onClick={() => setShowHindiKb((v) => !v)}
-            title="Hindi keyboard"
-            aria-label="Toggle Hindi keyboard"
-            aria-pressed={showHindiKb}
+            className="btn btn-sm surprise-btn"
+            onClick={surpriseMe}
+            disabled={!allWords.length}
+            aria-label="Open a random word"
           >
-            क
+            🎲 Surprise me
           </button>
-          {query && <button className="search-clear" onClick={() => setQuery("")} aria-label="Clear search">✕</button>}
         </div>
 
         {showHindiKb && (
@@ -112,7 +131,7 @@ export default function SearchPage() {
                 ))}
               </div>
             ))}
-            <button className="hindi-kb-clear" onClick={() => setQuery((q) => q.slice(0, -1))} aria-label="Backspace">⌫</button>
+            <button className="hindi-kb-clear" onClick={() => setQuery((prev) => prev.slice(0, -1))} aria-label="Backspace">⌫</button>
           </div>
         )}
 

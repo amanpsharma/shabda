@@ -1424,5 +1424,286 @@ footer p {
   margin-top: 8px;
 }
 
+/* ── XP bar ──────────────────────────────────────────────── */
+.xp-bar-wrap {
+  margin: 20px 0 8px;
+  padding: 14px 18px;
+  background: var(--paper-deep);
+  border: 1px solid var(--paper-deep);
+  border-radius: 2px;
+}
+.xp-bar-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+.xp-level { font-family: "Noto Serif Devanagari", serif; font-size: 15px; font-weight: 700; color: var(--accent); }
+.xp-level-en { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); font-weight: 400; }
+.xp-count { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--ink-soft); }
+.xp-bar-track { height: 4px; background: var(--paper); border-radius: 2px; overflow: hidden; }
+.xp-bar-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.4s ease; }
+.xp-next { font-size: 11px; color: var(--ink-soft); margin-top: 4px; text-align: right; font-family: "JetBrains Mono", monospace; }
+
+/* ── Yesterday's word ────────────────────────────────────── */
+.yesterday-wrap { margin: 16px 0; }
+.yesterday-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+.yesterday-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  background: var(--paper-deep);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.yesterday-card:hover { border-color: var(--ink-soft); }
+.yesterday-en { font-weight: 700; font-size: 16px; }
+.yesterday-hi { font-family: "Noto Serif Devanagari", serif; color: var(--ink-soft); font-size: 15px; }
+.yesterday-meaning { font-size: 13px; color: var(--ink-soft); flex: 1 1 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0; }
+
+/* ── Subscriber count ────────────────────────────────────── */
+.subscriber-count {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+/* ── Word difficulty badge on card ───────────────────────── */
+.word-diff-badge {
+  position: absolute;
+  top: -14px;
+  left: 24px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.word-diff-badge.diff-beginner    { background: #eaf4ec; color: #2d7a3a; }
+.word-diff-badge.diff-intermediate { background: #f5f0e0; color: #8a6a10; }
+.word-diff-badge.diff-advanced    { background: #f4eaea; color: #a02020; }
+[data-theme="dark"] .word-diff-badge.diff-beginner    { background: #122218; color: #72c07e; }
+[data-theme="dark"] .word-diff-badge.diff-intermediate { background: #251e10; color: #c4a060; }
+[data-theme="dark"] .word-diff-badge.diff-advanced    { background: #2e1010; color: #d07070; }
+
+/* ── Card collapsible extras ─────────────────────────────── */
+.card-extra { margin-top: 12px; border-top: 1px solid rgba(0,0,0,0.06); padding-top: 8px; }
+[data-theme="dark"] .card-extra { border-top-color: rgba(255,255,255,0.06); }
+.card-extra-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 4px 0;
+}
+.card-extra-toggle:hover { color: var(--ink); }
+.card-extra-chevron { font-size: 9px; }
+.card-extra-body {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: var(--paper);
+  border-left: 3px solid var(--gold);
+}
+
+/* ── Secondary actions row ───────────────────────────────── */
+.actions-secondary {
+  margin-top: 8px;
+  gap: 8px;
+}
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+/* ── Example submission form ─────────────────────────────── */
+.example-form-wrap {
+  margin-top: 16px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px dashed var(--ink-soft);
+  border-radius: 2px;
+}
+.example-form-label { font-size: 14px; color: var(--ink-soft); margin-bottom: 10px; }
+.example-form-lang { display: flex; gap: 6px; margin-bottom: 10px; }
+.example-form-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+.example-char-count { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--ink-soft); }
+.example-form-ok { font-size: 14px; color: #2d7a3a; padding: 4px 0; }
+[data-theme="dark"] .example-form-ok { color: #72c07e; }
+
+/* ── Search bar row (with Surprise Me) ───────────────────── */
+.search-bar-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.search-bar-row .search-bar { flex: 1; min-width: 200px; }
+.surprise-btn { white-space: nowrap; flex-shrink: 0; }
+
+/* ── Achievements page ───────────────────────────────────── */
+.ach-progress-wrap {
+  height: 6px;
+  background: var(--paper-deep);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.ach-progress-bar { height: 100%; background: var(--accent); transition: width 0.4s ease; }
+.ach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+}
+.ach-card {
+  padding: 16px 12px;
+  border: 1.5px solid var(--paper-deep);
+  border-radius: 2px;
+  text-align: center;
+  background: var(--paper-deep);
+  opacity: 0.45;
+  transition: opacity 0.2s, border-color 0.2s;
+}
+.ach-card.unlocked {
+  opacity: 1;
+  border-color: var(--accent);
+  background: var(--paper);
+  box-shadow: 4px 4px 0 var(--accent);
+}
+.ach-emoji { font-size: 28px; margin-bottom: 8px; }
+.ach-label { font-family: "JetBrains Mono", monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); margin-bottom: 4px; }
+.ach-desc { font-size: 12px; color: var(--ink-soft); line-height: 1.4; }
+
+/* ── Stats page ──────────────────────────────────────────── */
+.stats-level-card {
+  text-align: center;
+  padding: 24px;
+  background: var(--paper-deep);
+  border: 1.5px solid var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+  margin-bottom: 24px;
+}
+.stats-level-label { font-family: "Noto Serif Devanagari", serif; font-size: 36px; font-weight: 700; color: var(--accent); }
+.stats-level-name { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 8px; }
+.stats-xp { font-size: 28px; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+.stats-xp-bar-wrap { height: 8px; background: var(--paper); border-radius: 4px; overflow: hidden; margin-bottom: 6px; }
+.stats-xp-bar { height: 100%; background: var(--accent); transition: width 0.4s ease; }
+.stats-xp-next { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--ink-soft); }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.stat-card {
+  padding: 16px 12px;
+  background: var(--paper-deep);
+  border: 1px solid var(--paper-deep);
+  border-radius: 2px;
+  text-align: center;
+}
+.stat-num { font-size: 28px; font-weight: 700; color: var(--ink); line-height: 1; margin-bottom: 4px; }
+.stat-label { font-family: "JetBrains Mono", monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
+
+/* ── 365-day heatmap ──────────────────────────────────────── */
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(52, 1fr);
+  gap: 2px;
+}
+@media (max-width: 600px) { .heatmap { grid-template-columns: repeat(26, 1fr); } }
+.heatmap-cell {
+  aspect-ratio: 1;
+  background: var(--paper-deep);
+  border-radius: 1px;
+}
+.heatmap-cell.visited { background: var(--accent); opacity: 0.85; }
+
+/* ── Quiz history ─────────────────────────────────────────── */
+.quiz-history-list { display: flex; flex-direction: column; gap: 4px; }
+.quiz-history-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: var(--paper-deep);
+  border-radius: 2px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+}
+.quiz-history-date { flex: 1; color: var(--ink-soft); }
+.quiz-history-score { color: var(--ink); }
+.quiz-history-pct { font-weight: 700; min-width: 40px; text-align: right; }
+.quiz-history-pct.good { color: #2d7a3a; }
+.quiz-history-pct.ok   { color: #8a6a10; }
+.quiz-history-pct.low  { color: #a02020; }
+[data-theme="dark"] .quiz-history-pct.good { color: #72c07e; }
+[data-theme="dark"] .quiz-history-pct.ok   { color: #c4a060; }
+[data-theme="dark"] .quiz-history-pct.low  { color: #d07070; }
+
+/* ── Collections page ────────────────────────────────────── */
+.col-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+.col-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 16px;
+  background: var(--paper-deep);
+  border: 1.5px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.col-card:hover { border-color: var(--accent); box-shadow: 4px 4px 0 var(--accent); }
+.col-emoji { font-size: 28px; margin-bottom: 10px; }
+.col-label { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); margin-bottom: 4px; }
+.col-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.4; margin-bottom: 8px; }
+.col-count { font-family: "JetBrains Mono", monospace; font-size: 10px; color: var(--accent); margin-top: auto; }
+.col-word-list { display: flex; flex-direction: column; gap: 2px; }
+
+/* ── Quiz counter sub-label ───────────────────────────── */
+.quiz-counter-sub {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+Devanagari:wght@400;700&display=swap");

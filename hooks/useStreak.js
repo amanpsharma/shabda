@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { addXP } from "./useXP";
+import { unlockAchievement } from "./useAchievements";
 
 const MILESTONES = [3, 7, 14, 30, 60, 100, 200, 365];
 
@@ -20,8 +22,24 @@ export default function useStreak() {
       s = last === yesterday ? s + 1 : 1;
       localStorage.setItem("shabda.lastVisit", today);
       localStorage.setItem("shabda.streak", String(s));
+
+      // Award XP for daily visit
+      addXP(10);
+
+      // Unlock streak achievements
+      if (s >= 3)  unlockAchievement("streak-3");
+      if (s >= 7)  unlockAchievement("streak-7");
+      if (s >= 30) unlockAchievement("streak-30");
+
+      // Night owl achievement
+      const hour = new Date().getHours();
+      if (hour >= 22 || hour < 4) unlockAchievement("night-owl");
+
       if (MILESTONES.includes(s)) setMilestone(s);
     }
+
+    // First visit achievement
+    unlockAchievement("first-visit");
 
     if (!log.includes(today)) {
       log = [today, ...log].slice(0, 365);

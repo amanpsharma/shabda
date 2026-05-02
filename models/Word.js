@@ -20,6 +20,10 @@ const wordSchema = new mongoose.Schema(
     category: { type: String, enum: ["noun", "verb", "adjective", "phrase"], default: "adjective" },
     synonyms: { type: [String], default: [] },
     antonyms: { type: [String], default: [] },
+    etymology: { type: String, default: "" },
+    mnemonic: { type: String, default: "" },
+    didYouKnow: { type: String, default: "" },
+    difficulty: { type: String, enum: ["beginner", "intermediate", "advanced"], default: "intermediate" },
   },
   { timestamps: true }
 );

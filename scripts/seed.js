@@ -15,6 +15,13 @@ const wordSchema = new mongoose.Schema(
     meaningHi: String,
     exampleEn: String,
     exampleHi: String,
+    category: { type: String, default: null },
+    synonyms: { type: [String], default: [] },
+    antonyms: { type: [String], default: [] },
+    etymology: { type: String, default: "" },
+    mnemonic: { type: String, default: "" },
+    didYouKnow: { type: String, default: "" },
+    difficulty: { type: String, default: "intermediate" },
     order: { type: Number, default: 0 },
   },
   { timestamps: true }

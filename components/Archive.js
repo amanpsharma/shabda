@@ -2,7 +2,7 @@ import { useState } from "react";
 import { fetchWords } from "../lib/fetchWords";
 import { EPOCH } from "../lib/constants";
 
-const CATS = ["all", "noun", "adjective", "verb"];
+const CATS = ["all", "noun", "adjective", "verb", "phrase"];
 const PAGE = 7;
 
 function computeArchiveEntries(words, count) {

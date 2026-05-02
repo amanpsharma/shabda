@@ -4,18 +4,16 @@ import { useEffect, useState, useCallback, useRef } from "react";
 import { bustWordsCache } from "../lib/fetchWords";
 
 const CATS = ["noun", "verb", "adjective", "phrase"];
+const DIFFS = ["beginner", "intermediate", "advanced"];
 
 const EMPTY = {
   en: { word: "", phonetic: "", pos: "" },
   hi: { word: "", romanized: "", pos: "" },
-  meaningEn: "",
-  meaningHi: "",
-  exampleEn: "",
-  exampleHi: "",
-  synonyms: "",
-  antonyms: "",
-  category: "adjective",
-  order: 0,
+  meaningEn: "", meaningHi: "",
+  exampleEn: "", exampleHi: "",
+  synonyms: "", antonyms: "",
+  etymology: "", mnemonic: "", didYouKnow: "",
+  category: "adjective", difficulty: "intermediate", order: 0,
 };
 
 function authHeaders(token) {
@@ -125,7 +123,11 @@ export default function AdminPage() {
       exampleHi: w.exampleHi,
       synonyms: (w.synonyms || []).join(", "),
       antonyms: (w.antonyms || []).join(", "),
+      etymology: w.etymology || "",
+      mnemonic: w.mnemonic || "",
+      didYouKnow: w.didYouKnow || "",
       category: w.category || "adjective",
+      difficulty: w.difficulty || "intermediate",
       order: w.order || 0,
     });
     setMsg("");
@@ -424,6 +426,16 @@ export default function AdminPage() {
           onChange={(e) => setF("antonyms", e.target.value)}
           placeholder="sad, unhappy, gloomy"
         />
+        <label>Etymology</label>
+        <input className="admin-input" value={form.etymology} onChange={(e) => setF("etymology", e.target.value)} placeholder="From Latin xyz, meaning…" />
+        <label>Memory trick (mnemonic)</label>
+        <input className="admin-input" value={form.mnemonic} onChange={(e) => setF("mnemonic", e.target.value)} placeholder="Think of EPHEMERAL → things that faded fast…" />
+        <label>Did you know?</label>
+        <textarea className="admin-input admin-ta" value={form.didYouKnow} onChange={(e) => setF("didYouKnow", e.target.value)} placeholder="An interesting cultural or linguistic fact…" />
+        <label>Difficulty</label>
+        <select className="admin-input" value={form.difficulty} onChange={(e) => setF("difficulty", e.target.value)}>
+          {DIFFS.map((d) => <option key={d} value={d}>{d}</option>)}
+        </select>
         <label>Order</label>
         <input
           className="admin-input"
