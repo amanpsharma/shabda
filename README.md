@@ -12,6 +12,4 @@ npm install
 npm run dev
 ```
 
-14mcaaman_db_user
-SvquFEGH8yYPM03a
 Open http://localhost:3000
